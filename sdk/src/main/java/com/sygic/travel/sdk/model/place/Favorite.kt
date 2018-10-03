@@ -9,5 +9,5 @@ import android.arch.persistence.room.PrimaryKey
 @Entity(tableName = "favorite")
 class Favorite(
 	@PrimaryKey
-	var id: String? = null
+	var id: String = ""
 )
